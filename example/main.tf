@@ -1,6 +1,6 @@
 provider "websupport" {
-  username = "${var.websupport_username}"
-  password = "${var.websupport_password}"
+  username = var.websupport_username
+  password = var.websupport_password
 }
 
 resource "websupport_record" "terraform_dns_record" {

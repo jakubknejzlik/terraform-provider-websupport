@@ -1,9 +1,9 @@
 variable "websupport_username" {
-    type = "string"
+    type    = string
     default = "janko"
 }
 
 variable "websupport_password" {
-    type = "string"
+    type    = string
     default = "Hrasko123"
 }
